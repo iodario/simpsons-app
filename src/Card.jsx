@@ -1,12 +1,16 @@
 import React from 'react'
+import './Card.css';
+
 
 const Card = ({name,image,quote}) => {
 
   return (
     <div className="card">
-      <h3>{name}</h3>
       <img src={image} alt={`personaje ${{name}}`} />
+      <div className= "description-container">
+      <h3>{name}</h3>
       <p>{quote}</p>
+      </div>
     </div>
     
   )

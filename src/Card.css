@@ -1,0 +1,21 @@
+.card{
+    background-color:#202124;
+    width: 200px;
+    color: rgb(165, 159, 159);
+    border: 1px gray solid;
+    border-radius:10px;
+    border-width: 2px;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+.description-container{
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    background-color: white;    
+    border-radius:10px
+}

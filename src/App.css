@@ -1,0 +1,21 @@
+h1{
+    color: white;
+}
+
+.search{
+    color:white;
+}
+
+.search input{
+    margin-left: 25px;
+}
+
+.principal_container{
+    margin: 50px;
+}
+
+.cards-container{
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+}
