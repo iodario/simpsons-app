@@ -24,8 +24,9 @@ function App() {
         />
       </form>
       <div className="cards-container">
-        {simpsonsApi.filter(
-          element => element.character.includes(filter)).map((character, i) => (
+        {simpsonsApi
+          .filter(element => element.character.toLowerCase().includes(filter.toLowerCase()))
+          .map((character, i) => (
             <Card
               name={character.character}
               image={character.image}
