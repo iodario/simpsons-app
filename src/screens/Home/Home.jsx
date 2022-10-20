@@ -1,11 +1,11 @@
-import './App.css'
-import simpsonsApi from './APIrest/simpsonsApi'
-import Card from './Card';
+import './Home.css'
+import simpsonsApi from '../../APIrest/simpsonsApi'
+import Card from '../../componets/Home/Card/Card';
 import { useState } from 'react';
-import './App.css';
 
 
-function App() {
+
+function Home() {
 
   //--guardamos los estados con el useState --
   //--onChange: cada vez que cambie ese input,
@@ -42,4 +42,4 @@ function App() {
 }
 
 
-export default App
+export default Home
